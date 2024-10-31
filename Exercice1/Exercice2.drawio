@@ -287,7 +287,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="A0Wzo5NsjkZYK3Sea3dM-1" value="Démographie" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="200" width="140" height="234" as="geometry" />
+          <mxGeometry x="980" y="120" width="140" height="234" as="geometry" />
         </mxCell>
         <mxCell id="A0Wzo5NsjkZYK3Sea3dM-2" value="CléDémographie" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="A0Wzo5NsjkZYK3Sea3dM-1">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -314,19 +314,25 @@
           <mxGeometry y="208" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="A0Wzo5NsjkZYK3Sea3dM-10" value="Foyer" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="414" width="140" height="130" as="geometry" />
+          <mxGeometry x="515" y="172" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="A0Wzo5NsjkZYK3Sea3dM-11" value="CléFoyer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="A0Wzo5NsjkZYK3Sea3dM-10">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="A0Wzo5NsjkZYK3Sea3dM-12" value="NomAbonné" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="A0Wzo5NsjkZYK3Sea3dM-10">
+        <mxCell id="A0Wzo5NsjkZYK3Sea3dM-14" value="CléDémographie" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="A0Wzo5NsjkZYK3Sea3dM-10">
           <mxGeometry y="52" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="A0Wzo5NsjkZYK3Sea3dM-13" value="AnnéeNaissanceAbonné" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="A0Wzo5NsjkZYK3Sea3dM-10">
+        <mxCell id="A0Wzo5NsjkZYK3Sea3dM-12" value="NomAbonné" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="A0Wzo5NsjkZYK3Sea3dM-10">
           <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="A0Wzo5NsjkZYK3Sea3dM-14" value="CléDémographie" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="A0Wzo5NsjkZYK3Sea3dM-10">
+        <mxCell id="A0Wzo5NsjkZYK3Sea3dM-13" value="AnnéeNaissanceAbonné" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="A0Wzo5NsjkZYK3Sea3dM-10">
           <mxGeometry y="104" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="wV_teCJcoU0jXqp6iqGX-1" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="A0Wzo5NsjkZYK3Sea3dM-5" target="A0Wzo5NsjkZYK3Sea3dM-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="300" as="sourcePoint" />
+            <mxPoint x="490" y="250" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
