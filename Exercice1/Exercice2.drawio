@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.3" pages="4">
   <diagram id="Jc3dA74wgbEN4klZnayW" name="T_Faits">
-    <mxGraphModel dx="2595" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1755" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry x="-1120" y="40" width="350" height="300" as="geometry" />
         </mxCell>
         <mxCell id="C0duEHI0nC4GZGa9vV8B-3" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;2. Granularité de la table&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-890" y="410" width="350" height="300" as="geometry" />
+          <mxGeometry x="-1120" y="360" width="350" height="300" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
