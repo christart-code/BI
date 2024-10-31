@@ -1,70 +1,117 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3" pages="5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3" pages="6">
   <diagram id="Jc3dA74wgbEN4klZnayW" name="T_Faits">
-    <mxGraphModel dx="1969" dy="395" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2095" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="C0duEHI0nC4GZGa9vV8B-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Tableau de Faits : Action&lt;/font&gt;&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Elle contient tous les primaires des autres tables.&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&amp;nbsp;contient les mesures quantitatives et les données transactionnelles.&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Action enregistrer les interactions des téléspectateurs avec les émissions et les publicités&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Type d&#39;action : zapping, éteindre, demander plus d&#39;Informations&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Durée de l&#39;action, durée restante de l&#39;émission ou de la publicité.&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="C0duEHI0nC4GZGa9vV8B-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Tableau de Faits : Action&lt;/font&gt;&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Elle contient tous les clés primaires des autres tables.&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&amp;nbsp;contient les mesures quantitatives et les données transactionnelles.&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Action enregistrer les interactions des téléspectateurs avec les émissions et les publicités&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Type d&#39;action : zapping, éteindre, demander plus d&#39;Informations&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Durée de l&#39;action, durée restante de l&#39;émission ou de la publicité.&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1120" y="40" width="540" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="C0duEHI0nC4GZGa9vV8B-3" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Granularité de la table&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1130" y="390" width="350" height="50" as="geometry" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ExCZ385smJqIeYZ-3EWS" name="Granulation">
+    <mxGraphModel dx="2204" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CiQANGmJMtJLK2aD7KWK-1" value="&lt;font face=&quot;Calibri&quot;&gt;&lt;span style=&quot;font-size: 17.3333px;&quot;&gt;Région&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lYvG7aGHN8p7H-dB4wmb-2" value="&lt;span style=&quot;font-size: 13pt; font-family: Calibri;&quot;&gt;Minute&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1120" y="480" width="120" height="60" as="geometry" />
+        <mxCell id="CiQANGmJMtJLK2aD7KWK-2" value="Département" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lYvG7aGHN8p7H-dB4wmb-3" value="Heure" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-930" y="480" width="120" height="60" as="geometry" />
+        <mxCell id="CiQANGmJMtJLK2aD7KWK-3" value="District" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lYvG7aGHN8p7H-dB4wmb-4" value="TrancheHoraire" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-770" y="480" width="120" height="60" as="geometry" />
+        <mxCell id="CiQANGmJMtJLK2aD7KWK-4" value="&lt;font face=&quot;Calibri&quot;&gt;&lt;span style=&quot;font-size: 17.3333px;&quot;&gt;Ville&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-840" y="310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lYvG7aGHN8p7H-dB4wmb-6" value="&lt;span style=&quot;font-size: 13pt; font-family: Calibri;&quot;&gt;JourDeSemaine&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-580" y="480" width="120" height="60" as="geometry" />
+        <mxCell id="CiQANGmJMtJLK2aD7KWK-5" value="&lt;font face=&quot;Calibri&quot;&gt;&lt;span style=&quot;font-size: 17.3333px;&quot;&gt;Quartier&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1100" y="310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lYvG7aGHN8p7H-dB4wmb-7" value="&lt;span style=&quot;font-size: 13pt; font-family: Calibri;&quot;&gt;JourDeMois&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-580" y="620" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lYvG7aGHN8p7H-dB4wmb-8" value="&lt;font face=&quot;Calibri&quot;&gt;&lt;span style=&quot;font-size: 17.3333px;&quot;&gt;Mois&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-800" y="680" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lYvG7aGHN8p7H-dB4wmb-9" value="&lt;font face=&quot;Calibri&quot;&gt;&lt;span style=&quot;font-size: 17.3333px;&quot;&gt;Année&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1060" y="690" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="lYvG7aGHN8p7H-dB4wmb-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lYvG7aGHN8p7H-dB4wmb-2" target="lYvG7aGHN8p7H-dB4wmb-3">
+        <mxCell id="CiQANGmJMtJLK2aD7KWK-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CiQANGmJMtJLK2aD7KWK-5" target="CiQANGmJMtJLK2aD7KWK-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-990" y="570" as="sourcePoint" />
-            <mxPoint x="-940" y="520" as="targetPoint" />
+            <mxPoint x="-940" y="400" as="sourcePoint" />
+            <mxPoint x="-890" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lYvG7aGHN8p7H-dB4wmb-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lYvG7aGHN8p7H-dB4wmb-3" target="lYvG7aGHN8p7H-dB4wmb-4">
+        <mxCell id="CiQANGmJMtJLK2aD7KWK-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="CiQANGmJMtJLK2aD7KWK-4" target="CiQANGmJMtJLK2aD7KWK-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-810" y="510" as="sourcePoint" />
-            <mxPoint x="-770" y="510" as="targetPoint" />
+            <mxPoint x="-730" y="400" as="sourcePoint" />
+            <mxPoint x="-680" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lYvG7aGHN8p7H-dB4wmb-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lYvG7aGHN8p7H-dB4wmb-4" target="lYvG7aGHN8p7H-dB4wmb-6">
+        <mxCell id="CiQANGmJMtJLK2aD7KWK-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CiQANGmJMtJLK2aD7KWK-2" target="CiQANGmJMtJLK2aD7KWK-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-634" y="560" as="sourcePoint" />
-            <mxPoint x="-584" y="510" as="targetPoint" />
+            <mxPoint x="-450" y="430" as="sourcePoint" />
+            <mxPoint x="-400" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lYvG7aGHN8p7H-dB4wmb-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lYvG7aGHN8p7H-dB4wmb-6" target="lYvG7aGHN8p7H-dB4wmb-7">
+        <mxCell id="CiQANGmJMtJLK2aD7KWK-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CiQANGmJMtJLK2aD7KWK-1" target="CiQANGmJMtJLK2aD7KWK-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-560" y="620" as="sourcePoint" />
-            <mxPoint x="-510" y="570" as="targetPoint" />
+            <mxPoint x="-250" y="464" as="sourcePoint" />
+            <mxPoint x="-200" y="414" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lYvG7aGHN8p7H-dB4wmb-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lYvG7aGHN8p7H-dB4wmb-7" target="lYvG7aGHN8p7H-dB4wmb-8">
+        <mxCell id="7j4WRlVTFc4eMjEqktVb-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Granularité de la table&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1130" y="20" width="350" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7j4WRlVTFc4eMjEqktVb-2" value="&lt;span style=&quot;font-size: 13pt; font-family: Calibri;&quot;&gt;Minute&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1000" y="495" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7j4WRlVTFc4eMjEqktVb-3" value="Heure" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="495" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7j4WRlVTFc4eMjEqktVb-4" value="TrancheHoraire" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-650" y="495" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7j4WRlVTFc4eMjEqktVb-5" value="&lt;span style=&quot;font-size: 13pt; font-family: Calibri;&quot;&gt;JourDeSemaine&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="495" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7j4WRlVTFc4eMjEqktVb-6" value="&lt;span style=&quot;font-size: 13pt; font-family: Calibri;&quot;&gt;JourDeMois&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="635" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7j4WRlVTFc4eMjEqktVb-7" value="&lt;font face=&quot;Calibri&quot;&gt;&lt;span style=&quot;font-size: 17.3333px;&quot;&gt;Mois&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="695" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7j4WRlVTFc4eMjEqktVb-8" value="&lt;font face=&quot;Calibri&quot;&gt;&lt;span style=&quot;font-size: 17.3333px;&quot;&gt;Année&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-940" y="705" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7j4WRlVTFc4eMjEqktVb-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7j4WRlVTFc4eMjEqktVb-2" target="7j4WRlVTFc4eMjEqktVb-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-609" y="750" as="sourcePoint" />
-            <mxPoint x="-559" y="700" as="targetPoint" />
+            <mxPoint x="-870" y="585" as="sourcePoint" />
+            <mxPoint x="-820" y="535" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lYvG7aGHN8p7H-dB4wmb-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="lYvG7aGHN8p7H-dB4wmb-8" target="lYvG7aGHN8p7H-dB4wmb-9">
+        <mxCell id="7j4WRlVTFc4eMjEqktVb-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7j4WRlVTFc4eMjEqktVb-3" target="7j4WRlVTFc4eMjEqktVb-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-900" y="680" as="sourcePoint" />
-            <mxPoint x="-850" y="630" as="targetPoint" />
+            <mxPoint x="-690" y="525" as="sourcePoint" />
+            <mxPoint x="-650" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7j4WRlVTFc4eMjEqktVb-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7j4WRlVTFc4eMjEqktVb-4" target="7j4WRlVTFc4eMjEqktVb-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-514" y="575" as="sourcePoint" />
+            <mxPoint x="-464" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7j4WRlVTFc4eMjEqktVb-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7j4WRlVTFc4eMjEqktVb-5" target="7j4WRlVTFc4eMjEqktVb-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-440" y="635" as="sourcePoint" />
+            <mxPoint x="-390" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7j4WRlVTFc4eMjEqktVb-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7j4WRlVTFc4eMjEqktVb-6" target="7j4WRlVTFc4eMjEqktVb-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-489" y="765" as="sourcePoint" />
+            <mxPoint x="-439" y="715" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7j4WRlVTFc4eMjEqktVb-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7j4WRlVTFc4eMjEqktVb-7" target="7j4WRlVTFc4eMjEqktVb-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-780" y="695" as="sourcePoint" />
+            <mxPoint x="-730" y="645" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
@@ -343,19 +390,19 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="0qCvwZe6JWig7dBa-NFN-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;REQUETE&lt;/h1&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;1. Quelle est la plage horaire durant laquelle les publicités sont diffusées où les foyers demandent le plus d’informations ?&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;2. Quelle semaine du mois à plus de téléspectateur ?&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;3. Quel est le nombre total des spectateurs qui regarde une publicité ?&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;4.&lt;/span&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&amp;nbsp;Dans région, ville ou de&lt;/font&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&amp;nbsp;département se situé les foyers qui ont suivi l&#39;émission à une date prévue&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&amp;nbsp;?&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;5. Quand&lt;/font&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="0qCvwZe6JWig7dBa-NFN-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;REQUETE&lt;/h1&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;1. Quelle est la plage horaire durant laquelle les publicités sont diffusées où les foyers demandent le plus d’informations ?&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;2. Quelle semaine du mois à plus de téléspectateur ?&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;3. Quel est le nombre total des spectateurs qui regarde une publicité ?&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;4.&lt;/span&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&amp;nbsp;Dans quels région, ville ou &lt;/font&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;département se situé les foyers qui ont suivi l&#39;émission à une date prévue&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&amp;nbsp;?&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="50" y="120" width="730" height="330" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="jnFc5d_X89tgDOiXiBYy" name="Page-2">
-    <mxGraphModel dx="1257" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+  <diagram id="jnFc5d_X89tgDOiXiBYy" name="NouveauModèle">
+    <mxGraphModel dx="880" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="A0Wzo5NsjkZYK3Sea3dM-1" value="Démographie" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="980" y="120" width="140" height="234" as="geometry" />
+          <mxGeometry x="980" y="120" width="140" height="312" as="geometry" />
         </mxCell>
         <mxCell id="A0Wzo5NsjkZYK3Sea3dM-2" value="CléDémographie" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="A0Wzo5NsjkZYK3Sea3dM-1" vertex="1">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -363,23 +410,32 @@
         <mxCell id="A0Wzo5NsjkZYK3Sea3dM-3" value="Région" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="A0Wzo5NsjkZYK3Sea3dM-1" vertex="1">
           <mxGeometry y="52" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="A0Wzo5NsjkZYK3Sea3dM-4" value="Département" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="A0Wzo5NsjkZYK3Sea3dM-1" vertex="1">
+        <mxCell id="I-hL7Wp-z7ebrcR3inYa-3" value="&lt;span style=&quot;font-size: 13pt; font-family: Calibri;&quot;&gt;District&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="A0Wzo5NsjkZYK3Sea3dM-1">
           <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="A0Wzo5NsjkZYK3Sea3dM-5" value="Ville" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="A0Wzo5NsjkZYK3Sea3dM-1" vertex="1">
+        <mxCell id="A0Wzo5NsjkZYK3Sea3dM-4" value="Département" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="A0Wzo5NsjkZYK3Sea3dM-1" vertex="1">
           <mxGeometry y="104" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="A0Wzo5NsjkZYK3Sea3dM-6" value="Quartier" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="A0Wzo5NsjkZYK3Sea3dM-1" vertex="1">
+        <mxCell id="A0Wzo5NsjkZYK3Sea3dM-5" value="Ville" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="A0Wzo5NsjkZYK3Sea3dM-1" vertex="1">
           <mxGeometry y="130" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="A0Wzo5NsjkZYK3Sea3dM-7" value="SituationFamille" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="A0Wzo5NsjkZYK3Sea3dM-1" vertex="1">
+        <mxCell id="A0Wzo5NsjkZYK3Sea3dM-6" value="Quartier" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="A0Wzo5NsjkZYK3Sea3dM-1" vertex="1">
           <mxGeometry y="156" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="A0Wzo5NsjkZYK3Sea3dM-8" value="RevenuFoyer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="A0Wzo5NsjkZYK3Sea3dM-1" vertex="1">
+        <mxCell id="A0Wzo5NsjkZYK3Sea3dM-7" value="SituationFamille" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="A0Wzo5NsjkZYK3Sea3dM-1" vertex="1">
           <mxGeometry y="182" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="A0Wzo5NsjkZYK3Sea3dM-9" value="CS" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="A0Wzo5NsjkZYK3Sea3dM-1" vertex="1">
+        <mxCell id="A0Wzo5NsjkZYK3Sea3dM-8" value="RevenuFoyer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="A0Wzo5NsjkZYK3Sea3dM-1" vertex="1">
           <mxGeometry y="208" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="A0Wzo5NsjkZYK3Sea3dM-9" value="CS" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="A0Wzo5NsjkZYK3Sea3dM-1" vertex="1">
+          <mxGeometry y="234" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="I-hL7Wp-z7ebrcR3inYa-1" value="&lt;span style=&quot;font-size: 13pt; font-family: Calibri;&quot;&gt;NombreAdulte&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="A0Wzo5NsjkZYK3Sea3dM-1">
+          <mxGeometry y="260" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="I-hL7Wp-z7ebrcR3inYa-2" value="&lt;span style=&quot;font-size: 13pt; font-family: Calibri;&quot;&gt;NombreEnfant&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="A0Wzo5NsjkZYK3Sea3dM-1">
+          <mxGeometry y="286" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="A0Wzo5NsjkZYK3Sea3dM-10" value="Foyer" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="660" y="150" width="140" height="130" as="geometry" />
