@@ -1,14 +1,32 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.3" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3" pages="4">
   <diagram id="Jc3dA74wgbEN4klZnayW" name="T_Faits">
-    <mxGraphModel dx="2595" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1934" dy="377" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="C0duEHI0nC4GZGa9vV8B-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Table de Fait : Action&lt;/h1&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Action contient les mesures quantitatives et les données transactionnelles.&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Action enregistre les interactions des téléspectateurs avec les émissions et les publicités&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Type d&#39;action : zapping, éteindre, demander plus d&#39;Informations&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Durée de l&#39;action, durée restante de l&#39;émission ou la publicité.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1120" y="40" width="520" height="240" as="geometry" />
+        <mxCell id="C0duEHI0nC4GZGa9vV8B-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Tableau de Faits : Action&lt;/font&gt;&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Elle contient tous les primaires des autres tables.&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&amp;nbsp;contient les mesures quantitatives et les données transactionnelles.&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Action enregistrer les interactions des téléspectateurs avec les émissions et les publicités&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Type d&#39;action : zapping, éteindre, demander plus d&#39;Informations&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;Durée de l&#39;action, durée restante de l&#39;émission ou de la publicité.&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-1120" y="40" width="540" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="C0duEHI0nC4GZGa9vV8B-3" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Granularité de la table&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="C0duEHI0nC4GZGa9vV8B-3" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Granularité de la table&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1130" y="390" width="350" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lYvG7aGHN8p7H-dB4wmb-2" value="&lt;span style=&quot;font-size: 13pt; font-family: Calibri;&quot;&gt;Minute&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1120" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lYvG7aGHN8p7H-dB4wmb-3" value="Heure" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-930" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lYvG7aGHN8p7H-dB4wmb-4" value="TrancheHoraire" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lYvG7aGHN8p7H-dB4wmb-6" value="&lt;span style=&quot;font-size: 13pt; font-family: Calibri;&quot;&gt;JourDeSemaine&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-720" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lYvG7aGHN8p7H-dB4wmb-7" value="&lt;span style=&quot;font-size: 13pt; font-family: Calibri;&quot;&gt;JourDeMois&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-910" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lYvG7aGHN8p7H-dB4wmb-8" value="&lt;font face=&quot;Calibri&quot;&gt;&lt;span style=&quot;font-size: 17.3333px;&quot;&gt;Mois&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1100" y="700" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
