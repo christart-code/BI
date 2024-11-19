@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Hypermarket Dashboard"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "ef54655b-86e0-41af-86a3-549f31e49fa1"
+  }
+}

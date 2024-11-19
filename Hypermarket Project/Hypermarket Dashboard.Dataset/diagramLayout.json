@@ -5,11 +5,102 @@
       "ordinal": 0,
       "scrollPosition": {
         "x": 0,
-        "y": 0
+        "y": 241.47981549592294
       },
-      "nodes": [],
+      "nodes": [
+        {
+          "location": {
+            "x": 582.54824365457648,
+            "y": 512.34655156678787
+          },
+          "nodeIndex": "clients",
+          "nodeLineageTag": "6143a6ec-98bb-43aa-b51e-61bb5f0a8614",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 418.23079076488949,
+            "y": -10
+          },
+          "nodeIndex": "commandes",
+          "nodeLineageTag": "9bc9310f-dc7b-41cd-97d5-7d3767a33aeb",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 21.013940005851907,
+            "y": 391.23671707464939
+          },
+          "nodeIndex": "geographie",
+          "nodeLineageTag": "6799b1b2-ddbe-4863-86af-d282fed375d6",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 10,
+            "y": 45.712249207557306
+          },
+          "nodeIndex": "produits",
+          "nodeLineageTag": "e184c554-acd5-4ea4-a612-b9eff3fde89c",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 20.889080096030511,
+            "y": 709.68807333707457
+          },
+          "nodeIndex": "responsable_regional",
+          "nodeLineageTag": "73004be9-0d49-45c9-a356-216c00cd571e",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 297.03631411670739,
+            "y": 194.99138702997902
+          },
+          "nodeIndex": "ventes",
+          "nodeLineageTag": "5cff1998-a5fc-4dd8-891b-8d805907a387",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 856.54824365457648,
+            "y": 409.75065066472007
+          },
+          "nodeIndex": "Date",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
       "name": "Toutes les tables",
-      "zoomValue": 100,
+      "zoomValue": 99.111111111111114,
       "pinKeyFieldsToTop": false,
       "showExtraHeaderInfo": false,
       "hideKeyFieldsWhenCollapsed": false,
