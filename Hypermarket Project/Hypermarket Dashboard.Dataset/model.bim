@@ -82,7 +82,7 @@
         "toTable": "produits"
       },
       {
-        "name": "9e61292c-6bd0-40dc-a021-8e2d50d2abb1",
+        "name": "e35f0550-e3c1-44eb-8bc2-74a706b6d29e",
         "fromColumn": "Date",
         "fromTable": "Date",
         "joinOnDateBehavior": "datePartOnly",
@@ -1103,7 +1103,7 @@
                   "table": "LocalDateTable_eca5b84e-5f85-494a-9238-f8dc7839d3a6"
                 },
                 "isDefault": true,
-                "relationship": "9e61292c-6bd0-40dc-a021-8e2d50d2abb1"
+                "relationship": "e35f0550-e3c1-44eb-8bc2-74a706b6d29e"
               }
             ]
           },
@@ -1186,6 +1186,22 @@
             "sourceColumn": "[Année]",
             "summarizeBy": "none",
             "type": "calculatedTableColumn"
+          },
+          {
+            "name": "AnnéeMois",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "eecbb5d6-bb2a-433d-b453-ef142e791c89",
+            "sourceColumn": "[AnnéeMois]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
           }
         ],
         "lineageTag": "b4af20e1-9ccf-4a60-923b-1ded37e48f99",
@@ -1201,7 +1217,8 @@
                 "    \"Mois\", FORMAT([Date], \"MM\"),",
                 "    \"MoisLabel\", FORMAT([Date], \"MMMM\"),",
                 "    \"Trimestre\", FORMAT([Date], \"Q\"),",
-                "    \"Année\", FORMAT([Date], \"yyyy\")",
+                "    \"Année\", FORMAT([Date], \"yyyy\"),",
+                "    \"AnnéeMois\", FORMAT([Date], \"yyyyMM\")",
                 ")"
               ],
               "type": "calculated"
@@ -1230,7 +1247,7 @@
             "dataType": "dateTime",
             "isHidden": true,
             "isNameInferred": true,
-            "lineageTag": "cd504f1b-a992-43e8-bf5c-2cea5dca9fc2",
+            "lineageTag": "e239f5a5-d021-4299-ae0a-0e58b413d5e1",
             "sourceColumn": "[Date]",
             "summarizeBy": "none",
             "type": "calculatedTableColumn"
@@ -1251,7 +1268,7 @@
             "dataType": "int64",
             "expression": "YEAR([Date])",
             "isHidden": true,
-            "lineageTag": "8e4ba633-c3a9-4fbb-91d3-7202d23ce943",
+            "lineageTag": "b6159346-30c6-4873-b769-2c2bfd442595",
             "summarizeBy": "none",
             "type": "calculated"
           },
@@ -1271,7 +1288,7 @@
             "dataType": "int64",
             "expression": "MONTH([Date])",
             "isHidden": true,
-            "lineageTag": "bdbfb5da-1f59-4df5-b345-f2fbbc6fd303",
+            "lineageTag": "a849aa72-726a-4bc8-b8ce-892347ab409d",
             "summarizeBy": "none",
             "type": "calculated"
           },
@@ -1291,7 +1308,7 @@
             "dataType": "string",
             "expression": "FORMAT([Date], \"MMMM\")",
             "isHidden": true,
-            "lineageTag": "3f2abee9-5d40-4177-b8d3-85276700a61f",
+            "lineageTag": "7bddc020-0c47-4b1c-8c84-1c5593f483e2",
             "sortByColumn": "NoMois",
             "summarizeBy": "none",
             "type": "calculated"
@@ -1312,7 +1329,7 @@
             "dataType": "int64",
             "expression": "INT(([NoMois] + 2) / 3)",
             "isHidden": true,
-            "lineageTag": "825b2fec-53b1-4f2e-acfb-6de89a70713a",
+            "lineageTag": "59ad047b-aafa-439c-8113-a0793614787b",
             "summarizeBy": "none",
             "type": "calculated"
           },
@@ -1332,7 +1349,7 @@
             "dataType": "string",
             "expression": "\"Trim \" & [NoTrimestre]",
             "isHidden": true,
-            "lineageTag": "36606e0e-cb53-49e9-bbba-05a2b363906f",
+            "lineageTag": "d3551885-8629-4dd4-9485-26b2274f2385",
             "sortByColumn": "NoTrimestre",
             "summarizeBy": "none",
             "type": "calculated"
@@ -1353,7 +1370,7 @@
             "dataType": "int64",
             "expression": "DAY([Date])",
             "isHidden": true,
-            "lineageTag": "3e4a22d4-7d9a-4c57-bac0-3da7a2b7ba61",
+            "lineageTag": "d2e1bafd-08c2-48e3-99f9-1462f378a554",
             "summarizeBy": "none",
             "type": "calculated"
           }
@@ -1371,29 +1388,29 @@
               {
                 "name": "Année",
                 "column": "Année",
-                "lineageTag": "b6f74360-66ed-4e14-a8d9-4acee20e8ac3",
+                "lineageTag": "30b72274-6fa9-4bde-b4b7-5ebb85b63b39",
                 "ordinal": 0
               },
               {
                 "name": "Trimestre",
                 "column": "Trimestre",
-                "lineageTag": "3b626c48-d34b-4b13-ba42-21d2d895ad37",
+                "lineageTag": "40760306-39e5-45b9-aeb5-24b4fd3355ff",
                 "ordinal": 1
               },
               {
                 "name": "Mois",
                 "column": "Mois",
-                "lineageTag": "4f1d41fc-f571-4c80-acfd-d92231377364",
+                "lineageTag": "e2650a4d-ea80-4e72-890f-be1d505e6a90",
                 "ordinal": 2
               },
               {
                 "name": "Jour",
                 "column": "Jour",
-                "lineageTag": "c8d6734b-d854-4732-a764-378fc7d670fd",
+                "lineageTag": "c9a495c0-dd3a-4ad5-a194-28e86e9220eb",
                 "ordinal": 3
               }
             ],
-            "lineageTag": "60423a60-b291-4267-b5d6-6289c91cd674"
+            "lineageTag": "969d4f6f-eabf-46c8-9258-5452996ec84b"
           }
         ],
         "isHidden": true,
