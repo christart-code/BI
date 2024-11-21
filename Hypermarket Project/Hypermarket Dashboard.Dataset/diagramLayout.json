@@ -5,7 +5,7 @@
       "ordinal": 0,
       "scrollPosition": {
         "x": 0,
-        "y": 241.47981549592294
+        "y": 0
       },
       "nodes": [
         {
@@ -19,7 +19,7 @@
             "height": 152,
             "width": 234
           },
-          "zIndex": 0
+          "zIndex": 1
         },
         {
           "location": {
@@ -32,7 +32,7 @@
             "height": 152,
             "width": 234
           },
-          "zIndex": 0
+          "zIndex": 2
         },
         {
           "location": {
@@ -45,7 +45,7 @@
             "height": 176,
             "width": 234
           },
-          "zIndex": 0
+          "zIndex": 7
         },
         {
           "location": {
@@ -58,12 +58,12 @@
             "height": 176,
             "width": 234
           },
-          "zIndex": 0
+          "zIndex": 3
         },
         {
           "location": {
-            "x": 20.889080096030511,
-            "y": 709.68807333707457
+            "x": 0,
+            "y": 632.89747083211626
           },
           "nodeIndex": "responsable_regional",
           "nodeLineageTag": "73004be9-0d49-45c9-a356-216c00cd571e",
@@ -71,20 +71,20 @@
             "height": 128,
             "width": 234
           },
-          "zIndex": 0
+          "zIndex": 4
         },
         {
           "location": {
-            "x": 297.03631411670739,
-            "y": 194.99138702997902
+            "x": 292.33484865722016,
+            "y": 205.96147310211592
           },
           "nodeIndex": "ventes",
           "nodeLineageTag": "5cff1998-a5fc-4dd8-891b-8d805907a387",
           "size": {
-            "height": 300,
+            "height": 337.611723675898,
             "width": 234
           },
-          "zIndex": 0
+          "zIndex": 5
         },
         {
           "location": {
@@ -96,11 +96,11 @@
             "height": 200,
             "width": 234
           },
-          "zIndex": 0
+          "zIndex": 6
         }
       ],
       "name": "Toutes les tables",
-      "zoomValue": 99.111111111111114,
+      "zoomValue": 63.809891316891388,
       "pinKeyFieldsToTop": false,
       "showExtraHeaderInfo": false,
       "hideKeyFieldsWhenCollapsed": false,
