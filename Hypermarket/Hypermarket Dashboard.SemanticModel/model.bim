@@ -8,7 +8,7 @@
       },
       {
         "name": "PBIDesktopVersion",
-        "value": "2.138.1004.0 (24.11)"
+        "value": "2.130.930.0 (24.06)"
       },
       {
         "name": "__PBI_TimeIntelligenceEnabled",
@@ -4399,10 +4399,6 @@
         "name": "clients",
         "annotations": [
           {
-            "name": "PBI_NavigationStepName",
-            "value": "Navigation"
-          },
-          {
             "name": "PBI_ResultType",
             "value": "Table"
           }
@@ -4470,10 +4466,6 @@
         "name": "commandes",
         "annotations": [
           {
-            "name": "PBI_NavigationStepName",
-            "value": "Navigation"
-          },
-          {
             "name": "PBI_ResultType",
             "value": "Table"
           }
@@ -4540,10 +4532,6 @@
       {
         "name": "geographie",
         "annotations": [
-          {
-            "name": "PBI_NavigationStepName",
-            "value": "Navigation"
-          },
           {
             "name": "PBI_ResultType",
             "value": "Table"
@@ -4625,10 +4613,6 @@
         "name": "produits",
         "annotations": [
           {
-            "name": "PBI_NavigationStepName",
-            "value": "Navigation"
-          },
-          {
             "name": "PBI_ResultType",
             "value": "Table"
           }
@@ -4709,10 +4693,6 @@
         "name": "responsable_regional",
         "annotations": [
           {
-            "name": "PBI_NavigationStepName",
-            "value": "Navigation"
-          },
-          {
             "name": "PBI_ResultType",
             "value": "Table"
           }
@@ -4766,10 +4746,6 @@
       {
         "name": "ventes",
         "annotations": [
-          {
-            "name": "PBI_NavigationStepName",
-            "value": "Navigation"
-          },
           {
             "name": "PBI_ResultType",
             "value": "Table"
@@ -4942,6 +4918,125 @@
           }
         ],
         "lineageTag": "5cff1998-a5fc-4dd8-891b-8d805907a387",
+        "measures": [
+          {
+            "name": "VentesAnneeEnCours",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    SUM(ventes[Ventes]),",
+              "    FILTER(",
+              "        ALL(ventes),",
+              "        YEAR(ventes[Date_de_commande]) = YEAR(MAX(ventes[Date_de_commande]))",
+              "    )",
+              ")"
+            ],
+            "lineageTag": "a1c54c53-5c18-4353-8ee4-c0960b2b9583"
+          },
+          {
+            "name": "VentesAnneePrecedente",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    SUM(ventes[Ventes]),",
+              "    FILTER(",
+              "        ALL(ventes),",
+              "        YEAR(ventes[Date_de_commande]) = YEAR(MAX(ventes[Date_de_commande])) - 1",
+              "    )",
+              ")",
+              ""
+            ],
+            "lineageTag": "3e1e1aa7-38e4-4367-8325-c8d691c353d0"
+          },
+          {
+            "name": "VariationAnnuelle",
+            "expression": [
+              "",
+              "IF(",
+              "    NOT(ISBLANK([VentesAnneePrecedente])),",
+              "    DIVIDE(",
+              "        [VentesAnneeEnCours] - [VentesAnneePrecedente],",
+              "        [VentesAnneePrecedente],",
+              "        0",
+              "    ),",
+              "    BLANK()",
+              ")",
+              ""
+            ],
+            "formatString": "0.00\\ %;-0.00\\ %;0.00\\ %",
+            "lineageTag": "1b92a0d9-43f5-4201-9d71-73820350621e"
+          },
+          {
+            "name": "ProfitAnneeEnCours",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    SUM(ventes[Profit]),",
+              "    FILTER(",
+              "        ALL(ventes),",
+              "        YEAR(ventes[Date_de_commande]) = YEAR(MAX(ventes[Date_de_commande]))",
+              "    )",
+              ")"
+            ],
+            "lineageTag": "90e792c2-b27d-4959-b66c-cd7e04544433"
+          },
+          {
+            "name": "ProfitAnneePrecedente",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "CALCULATE(",
+              "    SUM(ventes[Profit]),",
+              "    FILTER(",
+              "        ALL(ventes),",
+              "        YEAR(ventes[Date_de_commande]) = YEAR(MAX(ventes[Date_de_commande])) - 1",
+              "    )",
+              ")"
+            ],
+            "lineageTag": "26f96041-6c7f-4b7b-b3a9-14d18c6fdb97"
+          },
+          {
+            "name": "EcartProfit%",
+            "expression": [
+              "",
+              "IF(",
+              "    NOT(ISBLANK([ProfitAnneeEnCours])),",
+              "    DIVIDE(",
+              "        [ProfitAnneeEnCours] - [ProfitAnneePrecedente],",
+              "        [ProfitAnneePrecedente],",
+              "        0",
+              "    ),",
+              "    BLANK()",
+              ")",
+              ""
+            ],
+            "formatString": "0.00\\ %;-0.00\\ %;0.00\\ %",
+            "lineageTag": "257fe76e-98dc-4384-be74-f49fb534c52f"
+          }
+        ],
         "partitions": [
           {
             "name": "ventes",
