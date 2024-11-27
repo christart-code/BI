@@ -8,7 +8,7 @@
       },
       {
         "name": "PBIDesktopVersion",
-        "value": "2.138.1004.0 (24.11)"
+        "value": "2.130.930.0 (24.06)"
       },
       {
         "name": "__PBI_TimeIntelligenceEnabled",
@@ -363,6 +363,16 @@
                       "State": "Suggested",
                       "Type": "Noun",
                       "Weight": 0.492
+                    }
+                  },
+                  {
+                    "Nom client": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
                     }
                   }
                 ]
@@ -1328,6 +1338,26 @@
                       "Type": "Noun",
                       "Weight": 0.99
                     }
+                  },
+                  {
+                    "Catégorie": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  },
+                  {
+                    "Sous catégorie": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
                   }
                 ]
               },
@@ -1421,6 +1451,52 @@
                     "vente": {
                       "State": "Generated",
                       "Weight": 0.87
+                    }
+                  }
+                ]
+              },
+              "vente.EcartProfit": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "ventes",
+                    "ConceptualProperty": "EcartProfit%"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "EcartProfit%": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "ecartprofit percentage": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.75
+                    }
+                  },
+                  {
+                    "ecartprofit pct": {
+                      "Source": {
+                        "Agent": "Thesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.727
+                    }
+                  },
+                  {
+                    "Variation Profit": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
                     }
                   }
                 ]
@@ -2113,6 +2189,72 @@
                   }
                 ]
               },
+              "vente.profit_annee_en_cours": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "ventes",
+                    "ConceptualProperty": "ProfitAnneeEnCours"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "profit annee en cours": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "ProfitAnneeEnCours": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Année En Cours": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "vente.profit_annee_precedente": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "ventes",
+                    "ConceptualProperty": "ProfitAnneePrecedente"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "profit annee precedente": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "ProfitAnneePrecedente": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Année Précédente": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
               "vente.quantit_": {
                 "Definition": {
                   "Binding": {
@@ -2145,6 +2287,29 @@
                   }
                 ]
               },
+              "vente.variation_annuelle": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "ventes",
+                    "ConceptualProperty": "VariationAnnuelle"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "variation annuelle": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "VariationAnnuelle": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
               "vente.vente": {
                 "Definition": {
                   "Binding": {
@@ -2157,6 +2322,72 @@
                   {
                     "vente": {
                       "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "vente.ventes_annee_en_cours": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "ventes",
+                    "ConceptualProperty": "VentesAnneeEnCours"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ventes annee en cours": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "VentesAnneeEnCours": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Année En Cours": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "vente.ventes_annee_precedente": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "ventes",
+                    "ConceptualProperty": "VentesAnneePrecedente"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ventes annee precedente": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "VentesAnneePrecedente": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Année Précédente": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
                     }
                   }
                 ]
@@ -3681,6 +3912,39 @@
                 },
                 "State": "Generated"
               },
+              "vente_has_EcartProfit": {
+                "Binding": {
+                  "ConceptualEntity": "ventes"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "vente.EcartProfit"
+                      },
+                      "Subject": {
+                        "Role": "vente"
+                      }
+                    },
+                    "ID": "ventes_have_EcartProfit",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "vente": {
+                    "Target": {
+                      "Entity": "vente"
+                    }
+                  },
+                  "vente.EcartProfit": {
+                    "Target": {
+                      "Entity": "vente.EcartProfit"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "vente_has_client": {
                 "Binding": {
                   "ConceptualEntity": "ventes"
@@ -4017,6 +4281,72 @@
                 },
                 "State": "Generated"
               },
+              "vente_has_profit_annee_en_cours": {
+                "Binding": {
+                  "ConceptualEntity": "ventes"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "vente.profit_annee_en_cours"
+                      },
+                      "Subject": {
+                        "Role": "vente"
+                      }
+                    },
+                    "ID": "ventes_have_profit_annee_en_cours",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "vente": {
+                    "Target": {
+                      "Entity": "vente"
+                    }
+                  },
+                  "vente.profit_annee_en_cours": {
+                    "Target": {
+                      "Entity": "vente.profit_annee_en_cours"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "vente_has_profit_annee_precedente": {
+                "Binding": {
+                  "ConceptualEntity": "ventes"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "vente.profit_annee_precedente"
+                      },
+                      "Subject": {
+                        "Role": "vente"
+                      }
+                    },
+                    "ID": "ventes_have_profit_annee_precedente",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "vente": {
+                    "Target": {
+                      "Entity": "vente"
+                    }
+                  },
+                  "vente.profit_annee_precedente": {
+                    "Target": {
+                      "Entity": "vente.profit_annee_precedente"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "vente_has_quantit_": {
                 "Binding": {
                   "ConceptualEntity": "ventes"
@@ -4083,6 +4413,39 @@
                 },
                 "State": "Generated"
               },
+              "vente_has_variation_annuelle": {
+                "Binding": {
+                  "ConceptualEntity": "ventes"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "vente.variation_annuelle"
+                      },
+                      "Subject": {
+                        "Role": "vente"
+                      }
+                    },
+                    "ID": "ventes_have_variation_annuelle",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "vente": {
+                    "Target": {
+                      "Entity": "vente"
+                    }
+                  },
+                  "vente.variation_annuelle": {
+                    "Target": {
+                      "Entity": "vente.variation_annuelle"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
               "vente_has_vente": {
                 "Binding": {
                   "ConceptualEntity": "ventes"
@@ -4111,6 +4474,72 @@
                   "vente.vente": {
                     "Target": {
                       "Entity": "vente.vente"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "vente_has_ventes_annee_en_cours": {
+                "Binding": {
+                  "ConceptualEntity": "ventes"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "vente.ventes_annee_en_cours"
+                      },
+                      "Subject": {
+                        "Role": "vente"
+                      }
+                    },
+                    "ID": "ventes_have_ventes_annee_en_cours",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "vente": {
+                    "Target": {
+                      "Entity": "vente"
+                    }
+                  },
+                  "vente.ventes_annee_en_cours": {
+                    "Target": {
+                      "Entity": "vente.ventes_annee_en_cours"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "vente_has_ventes_annee_precedente": {
+                "Binding": {
+                  "ConceptualEntity": "ventes"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "vente.ventes_annee_precedente"
+                      },
+                      "Subject": {
+                        "Role": "vente"
+                      }
+                    },
+                    "ID": "ventes_have_ventes_annee_precedente",
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "vente": {
+                    "Target": {
+                      "Entity": "vente"
+                    }
+                  },
+                  "vente.ventes_annee_precedente": {
+                    "Target": {
+                      "Entity": "vente.ventes_annee_precedente"
                     }
                   }
                 },
