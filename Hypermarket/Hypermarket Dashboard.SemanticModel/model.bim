@@ -1082,16 +1082,6 @@
                       "Type": "Noun",
                       "Weight": 0.99
                     }
-                  },
-                  {
-                    "Région": {
-                      "Source": {
-                        "Agent": "PowerBI.VisualColumnRename",
-                        "Type": "External"
-                      },
-                      "State": "Suggested",
-                      "Weight": 0.9
-                    }
                   }
                 ]
               },
@@ -1121,6 +1111,16 @@
                       "State": "Generated",
                       "Type": "Noun",
                       "Weight": 0.99
+                    }
+                  },
+                  {
+                    "Pays Région": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
                     }
                   }
                 ]
